@@ -14,6 +14,9 @@
 		A8B4C6C0213447AC00601E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B4C6BE213447AC00601E60 /* LaunchScreen.storyboard */; };
 		A8B4C6CB213447AD00601E60 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B4C6CA213447AD00601E60 /* TicTacToeTests.swift */; };
 		A8B4C6D6213447AD00601E60 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B4C6D5213447AD00601E60 /* TicTacToeUITests.swift */; };
+		A8B4C6E42134482900601E60 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B4C6E32134482900601E60 /* Piece.swift */; };
+		A8B4C6E62134484E00601E60 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B4C6E52134484E00601E60 /* Board.swift */; };
+		A8B4C6E8213464D700601E60 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B4C6E7213464D700601E60 /* Interactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A8B4C6D1213447AD00601E60 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B4C6D5213447AD00601E60 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		A8B4C6D7213447AD00601E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8B4C6E32134482900601E60 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		A8B4C6E52134484E00601E60 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		A8B4C6E7213464D700601E60 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				A8B4C6BC213447AC00601E60 /* Assets.xcassets */,
 				A8B4C6BE213447AC00601E60 /* LaunchScreen.storyboard */,
 				A8B4C6C1213447AC00601E60 /* Info.plist */,
+				A8B4C6E32134482900601E60 /* Piece.swift */,
+				A8B4C6E52134484E00601E60 /* Board.swift */,
+				A8B4C6E7213464D700601E60 /* Interactor.swift */,
 			);
 			path = TicTacToe;
 			sourceTree = "<group>";
@@ -258,6 +267,9 @@
 			files = (
 				A8B4C6B8213447AB00601E60 /* ViewController.swift in Sources */,
 				A8B4C6B6213447AA00601E60 /* AppDelegate.swift in Sources */,
+				A8B4C6E8213464D700601E60 /* Interactor.swift in Sources */,
+				A8B4C6E62134484E00601E60 /* Board.swift in Sources */,
+				A8B4C6E42134482900601E60 /* Piece.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
